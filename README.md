@@ -1,5 +1,5 @@
 #Sophie Nohle
-##Assignment #2
+# # Assignment 2
 **This is my repository for Assignment #2**
 *I am excited to learn more about* 
 - How to work GitHub better
