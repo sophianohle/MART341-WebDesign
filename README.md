@@ -1,4 +1,4 @@
-#Sophie 
+# Sophie 
 # # Assignment 2
 **This is my repository for Assignment #2**
 *I am excited to learn more about* 
