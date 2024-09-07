@@ -1,5 +1,7 @@
 # Sophie
 ## Assignment 2
-This is my repo for **Assignment 2**
-I am excited to learn more about Git Hub and how to operate it while learning about coding. 
+*I am excited to learn more about:*
+- How to work/use GitHub as a beginner
+- How to do basic coding
+- And how I can understand web design better
 
