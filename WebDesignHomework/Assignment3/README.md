@@ -9,3 +9,4 @@
 
 [Mart 341 Intro-Web Design Course Website](https://montana-media-arts.github.io/webDesignFall2024//)
 
+![Picture of my boyfriend, Jack and I from this summer]
