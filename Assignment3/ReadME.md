@@ -7,7 +7,7 @@ I really liked this week's module and learning about the internet, and how cruci
 I don't think I really have any questions about what we learned this week, so I wanted to share some of my favorite things I learned while following along with the module for Assignment 3:
 
 1. How to insert links, and how simple it can be. This was super easy to me, so I want to share one of my favorite sites to shop. [One of my Favorite Sites!](https://turquoisetradersdirect.com/)
-2. I also found it interesting on how to insert an image to your directory, such as ![Screenshot](./images/screenshot.png)
-3. Absolute and Relative URLS
+2. Inline Code-- and how large amounts of code should be inserted into code blocks.
+3. I also found it interesting to learn how to insert an image to your directory, such as this picture of me: ![ME](https://github.com/sophianohle/MART341-WebDesign/blob/main/Assignment3/assignment-03/images/-01-2022-23-35-41.jpg)
 
 *Brittany-- I apologize again for all the trouble with Assignment 3! Thank you again for your help & troubleshooting.*
