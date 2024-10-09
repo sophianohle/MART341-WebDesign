@@ -1,0 +1,7 @@
+1. For my website design idea, I chose to go ahead with a digital resume. I wanted to create more of a sleek/modern design, professional website, and I felt that this idea aligned perfectly. I also felt that creating a digital resume website would allow me to utilize the most concepts I have learned with images, markups, links, sub-pages, etc. 
+
+2. Through this weeks assignment, it taught me how to create better balance and more visual aspects into my website design. Something that was major to me, was when I inserted my image, it filled up my whole webpage. I was able to learn how to format and code for the width of it to be smaller, and to be centered on my web page. I also made the background color an off white, which I like a lot. 
+
+3. My final design was similar to what I had invisioned, I would like to learn how to make color blocks/buttons that create more contrast on my web design. I did learn how to make adjustments along the way and make more spacing, which I felt helped. 
+
+4. Something I struggled with was getting my definition to work, and that was one of the comments I wrote on my index.html file. I tried figuring it out, but still struggled and it messed with some of my formatting. 
