@@ -1,12 +1,13 @@
-## Assignment 3-- Topic Materials
-### Questions About What I Learned This Week: 
-  For this week's assignments and the readings **I found that it definetly got harder than the previous two weeks**. GitHub is a totally new concept to me, so I was a little overwhlemed with reading all the readings and steps on the external course site, and all the new features I learned. I think a lot of it is starting to make sense, but I definitely needed to re-read it again and absorb the information.
+# Sophie Nohle
+## Assignment 3
+### MART 341-WebDesign
 
-*Questions I Have:*
+I really liked this week's module and learning about the internet, and how crucial it is to understand the internet, as it is a necessity to getting a website you designed to be online. I particularly enjoyed learning about Visual Studio Code, which is a text editor which simplifies the process of coding for a website. **Although I think Visual Studio Code is difficult and takes some additional time**, it has been fascinating following along with the external course website tutorials and seeing it actually work on my laptop. 
 
-1. How do I do a bulleted list w/o making it bold?
-2. Is there a way to adjust the sizing of images in a ReadMe?
+I don't think I really have any questions about what we learned this week, so I wanted to share some of my favorite things I learned while following along with the module for Assignment 3:
 
-[Mart 341 Intro-Web Design Course Website](https://montana-media-arts.github.io/webDesignFall2024//)
+1. How to insert links, and how simple it can be. This was super easy to me, so I want to share one of my favorite sites to shop. [One of my Favorite Sites!](https://turquoisetradersdirect.com/)
+2. Inline Code-- and how large amounts of code should be inserted into code blocks.
+3. I also found it interesting to learn how to insert an image to your directory, such as this picture of me: ![ME](https://github.com/sophianohle/MART341-WebDesign/blob/main/Assignment3/assignment-03/images/-01-2022-23-35-41.jpg)
 
-![Picture of my boyfriend, Jack and I from this summer](https://github.com/sophianohle/MART341-WebDesign/blob/main/Assignment3%20Image)
+*Brittany-- I apologize again for all the trouble with Assignment 3! Thank you again for your help & troubleshooting.*
