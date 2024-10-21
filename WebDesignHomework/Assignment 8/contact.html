@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Connect!</title>
+    <style>
+        
+        nav {
+            background-color: #ffe5e5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+        }
+
+        
+        nav a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        
+        nav a:hover {
+            background-color: #ffffff;
+            color: black;
+        }
+
+        
+        body {
+            background-color: rgb(255, 253, 253);
+        }
+
+        h1 {
+            color: rgb(0, 0, 0);
+        }
+
+        
+        .center-content {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        
+        form {
+            width: 400px; 
+            margin: 0 auto;
+        }
+
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%; 
+            padding: 10px; 
+            margin: 5px 0; 
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+        }
+
+        
+        img {
+            width: 400px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        
+        footer {
+            background-color: #1c1919;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffe5e5; 
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Let's Connect!</a>
+        <a href="workexperiences.html">Work Experiences</a>
+        <a href="educationvolunteer.html">Education & Volunteer Experiences</a>
+    </nav>
+
+    <div class="center-content">
+        <h1>Let's Connect!</h1>
+
+        <form action="/submit_contact" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+            
+            <input type="submit" value="Send">
+        </form>
+
+        <img src="images/thankyou.jpg" alt="Image of Thank You on Wood Blocks" class="centered-image">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sophie Nohle Professional Resume. All Rights Reserved.</p>
+        <p>Connect with me on 
+            <a href="https://www.linkedin.com/in/sophie-nohle-2645b7232/">LinkedIn</a> 
+        </p>
+
+        <audio controls autoplay>
+            <source src="04 The Happiest Times.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio
+    </footer>
+</body>
+</html>
