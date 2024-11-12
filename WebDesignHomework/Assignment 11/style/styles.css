@@ -1,0 +1,111 @@
+/* Global styling for the body to center all text */
+body {
+    text-align: center; /* Centers all text on the page */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Or whatever font you prefer */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #ffe5e5;
+    display: flex;
+    justify-content: center; /* Centers the navigation items horizontally */
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+/* Navigation link styles */
+nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+/* Add the decorative line on hover */
+nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Expand the decorative line on hover */
+nav a:hover::after {
+    width: 100%;
+}
+
+/* About me section */
+.aboutme {
+    background-color: #ffe5e5;
+    padding: 80px;
+    color: black;
+    margin-bottom: 150px; /* Add space below the About Me section */
+}
+
+/* Expertise section */
+.expertise {
+    background-color: #ffe5e5;
+    padding: 80px;
+    color: black;
+    margin-bottom: 40px; /* Add space below the Expertise section */
+}
+
+/* Photo gallery styling */
+#photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+#photo-gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+/* Header Section styling */
+header {
+    font-family: 'Miniver', sans-serif;
+    color: black;
+    padding: 40px 0;
+    margin-bottom: 40px; /* Add space below the header section */
+}
+
+/* Footer styling */
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px; /* Add space above the footer */
+}
+
+footer a {
+    color: #e0f7fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
