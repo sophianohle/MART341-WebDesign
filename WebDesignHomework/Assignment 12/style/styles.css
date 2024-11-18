@@ -1,0 +1,161 @@
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    position: relative; 
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #ffe5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 10; 
+}
+
+/* Navigation link styles */
+nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    transition: all 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #ffcccb;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* Section styling with centered max-width and border */
+.aboutme {
+    background-color: #ffe5e5;
+    padding: 60px;
+    color: black;
+    margin-bottom: 100px;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #000;
+    overflow: auto;
+    position: relative; /* Allows for additional positioning if needed */
+}
+
+.expertise {
+    background-color: #ffe5e5;
+    padding: 60px;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #000;
+    overflow: auto;
+    position: relative; /* Allows for additional positioning if needed */
+}
+
+
+.expertise ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Photo gallery styling */
+#photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 10px 0;
+    position: relative; 
+}
+
+#photo-gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+/* Header Section styling */
+header {
+    font-family: 'Miniver', sans-serif;
+    color: black;
+    padding: 30px 0;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    position: relative; 
+}
+
+/* Footer styling */
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    border-top: 2px solid #000;
+    position: relative; 
+}
+
+footer a {
+    color: #e0f7fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    #photo-gallery {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+}
