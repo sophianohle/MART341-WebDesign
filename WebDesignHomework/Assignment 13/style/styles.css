@@ -163,7 +163,6 @@ footer a:hover {
 
 /* Media Queries */
 
-/* Tablet View (768px and below) */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -186,7 +185,7 @@ footer a:hover {
     }
 }
 
-/* Mobile View (480px and below) */
+
 @media (max-width: 480px) {
     nav {
         flex-direction: column;
