@@ -1,0 +1,4 @@
+- **I used the HTML5 canvas element** to display custom graphics. Implemented an interactive feature where users can click on the canvas to create bouncing balls, utilizing JavaScript to draw and animate them in real-time.
+- **I implemented Bootstrap** for the navigation bar, responsive layout, and styling of sections like the footer and content areas for all of my portfolio html pages.
+- **I used JavaScript** to make a dropdown on my Volunteer page under RMEF to hide info about how to sign up to be a volunteer. 
+**For the framework, I implemented it in several places** such as my navigation bar, the buttons and links, borders, and the grid system of my photo gallery. 
